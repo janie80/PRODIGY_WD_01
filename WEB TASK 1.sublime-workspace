@@ -1,0 +1,448 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2493,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAATwMAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AgAAAAAAAAAAAAAAvQkAAAAAAAAAAAAAvQkAAAAAAAC9CQAAAAAAAE8DAAA8IURPQ1RZUEUgaHRtbD4KPGh0bWwgbGFuZz0iZW4iPgo8aGVhZD4KICAgIDxtZXRhIGNoYXJzZXQ9IlVURi04Ij4KICAgIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wIj4KICAgIDx0aXRsZT5JbnRlcmFjdGl2ZSBOYXZpZ2F0aW9uIE1lbnU8L3RpdGxlPgogICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSJzdHlsZXMuY3NzIj4KPC9oZWFkPgo8Ym9keT4KICAgIDxuYXYgaWQ9Im5hdmJhciI+CiAgICAgICAgPHVsPgogICAgICAgICAgICA8bGk+PGEgaHJlZj0iI2hvbWUiPkhvbWU8L2E+PC9saT4KICAgICAgICAgICAgPGxpPjxhIGhyZWY9IiNhYm91dCI+QWJvdXQ8L2E+PC9saT4KICAgICAgICAgICAgPGxpPjxhIGhyZWY9IiNzZXJ2aWNlcyI+U2VydmljZXM8L2E+PC9saT4KICAgICAgICAgICAgPGxpPjxhIGhyZWY9IiNjb250YWN0Ij5Db250YWN0PC9hPjwvbGk+CiAgICAgICAgPC91bD4KICAgIDwvbmF2PgoKICAgIDxzZWN0aW9uIGlkPSJob21lIj4KICAgICAgICA8aDE+V2VsY29tZSB0byBIb21lPC9oMT4KICAgIDwvc2VjdGlvbj4KICAgIDxzZWN0aW9uIGlkPSJhYm91dCI+CiAgICAgICAgPGgxPkFib3V0IFVzPC9oMT4KICAgIDwvc2VjdGlvbj4KICAgIDxzZWN0aW9uIGlkPSJzZXJ2aWNlcyI+CiAgICAgICAgPGgxPk91ciBTZXJ2aWNlczwvaDE+CiAgICA8L3NlY3Rpb24+CiAgICA8c2VjdGlvbiBpZD0iY29udGFjdCI+CiAgICAgICAgPGgxPkNvbnRhY3QgVXM8L2gxPgogICAgPC9zZWN0aW9uPgoKICAgIDxzY3JpcHQgc3JjPSJzY3JpcHQuanMiPjwvc2NyaXB0Pgo8L2JvZHk+CjwvaHRtbD4K",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAE8DAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"contents": "// Change the navbar background when the page is scrolled\nwindow.onscroll = function() {\n    var navbar = document.getElementById(\"navbar\");\n\n    if (window.pageYOffset > 100) {\n        navbar.classList.add(\"scrolled\");\n    } else {\n        navbar.classList.remove(\"scrolled\");\n    }\n};\n",
+			"file": "script.js",
+			"file_size": 310,
+			"file_write_time": 133701216907033221,
+			"settings":
+			{
+				"buffer_size": 287,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAALAEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AgAAAAAAAAAAAAAAHwEAAAAAAAAAAAAAHwEAAAAAAAAfAQAAAAAAACwBAAAvLyBDaGFuZ2UgdGhlIG5hdmJhciBiYWNrZ3JvdW5kIHdoZW4gdGhlIHBhZ2UgaXMgc2Nyb2xsZWQKd2luZG93Lm9uc2Nyb2xsID0gZnVuY3Rpb24oKSB7CiAgICB2YXIgbmF2YmFyID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIm5hdmJhciIpOwoKICAgIGlmICh3aW5kb3cucGFnZVlPZmZzZXQgPiAxMDApIHsKICAgICAgICBuYXZiYXIuc3R5bGUuYmFja2dyb3VuZENvbG9yID0gIiMyYzNlNTAiOwogICAgfSBlbHNlIHsKICAgICAgICBuYXZiYXIuc3R5bGUuYmFja2dyb3VuZENvbG9yID0gIiMzNDk4ZGIiOwogICAgfQp9Owo",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAACwBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					7,
+					1,
+					"paste",
+					null,
+					"AgAAAAAAAAAAAAAAHwEAAAAAAAAAAAAAHwEAAAAAAAAfAQAAAAAAAB8BAAAvLyBDaGFuZ2UgdGhlIG5hdmJhciBiYWNrZ3JvdW5kIHdoZW4gdGhlIHBhZ2UgaXMgc2Nyb2xsZWQKd2luZG93Lm9uc2Nyb2xsID0gZnVuY3Rpb24oKSB7CiAgICB2YXIgbmF2YmFyID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIm5hdmJhciIpOwoKICAgIGlmICh3aW5kb3cucGFnZVlPZmZzZXQgPiAxMDApIHsKICAgICAgICBuYXZiYXIuY2xhc3NMaXN0LmFkZCgic2Nyb2xsZWQiKTsKICAgIH0gZWxzZSB7CiAgICAgICAgbmF2YmFyLmNsYXNzTGlzdC5yZW1vdmUoInNjcm9sbGVkIik7CiAgICB9Cn07Cg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAB8BAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "styles.css",
+			"settings":
+			{
+				"buffer_size": 2040,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAAQQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AgAAAAAAAAAAAAAA+AcAAAAAAAAAAAAA+AcAAAAAAAD4BwAAAAAAAAEEAAAvKiBHZW5lcmFsIHBhZ2Ugc3R5bGluZyAqLwpib2R5IHsKICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsKICAgIG1hcmdpbjogMDsKICAgIHBhZGRpbmc6IDA7CiAgICBoZWlnaHQ6IDIwMHZoOyAvKiBqdXN0IHRvIGRlbW9uc3RyYXRlIHNjcm9sbGluZyAqLwp9CgpzZWN0aW9uIHsKICAgIHBhZGRpbmc6IDEwMHB4OwogICAgaGVpZ2h0OiAxMDB2aDsKfQoKLyogTmF2YmFyIHN0eWxpbmcgKi8KbmF2IHsKICAgIHBvc2l0aW9uOiBmaXhlZDsKICAgIHRvcDogMDsKICAgIHdpZHRoOiAxMDAlOwogICAgYmFja2dyb3VuZC1jb2xvcjogIzM0OThkYjsKICAgIHRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMC4zcyBlYXNlOwogICAgei1pbmRleDogMTAwOwp9CgpuYXYgdWwgewogICAgbGlzdC1zdHlsZS10eXBlOiBub25lOwogICAgbWFyZ2luOiAwOwogICAgcGFkZGluZzogMDsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsKfQoKbmF2IHVsIGxpIHsKICAgIGRpc3BsYXk6IGlubGluZTsKICAgIG1hcmdpbjogMCAxNXB4Owp9CgpuYXYgdWwgbGkgYSB7CiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7CiAgICBjb2xvcjogd2hpdGU7CiAgICBmb250LXNpemU6IDE4cHg7CiAgICBwYWRkaW5nOiAxNXB4IDIwcHg7CiAgICB0cmFuc2l0aW9uOiBjb2xvciAwLjNzIGVhc2U7Cn0KCi8qIENoYW5nZSBjb2xvciB3aGVuIGhvdmVyaW5nIG92ZXIgYSBtZW51IGl0ZW0gKi8KbmF2IHVsIGxpIGE6aG92ZXIgewogICAgY29sb3I6ICNmMzljMTI7Cn0KCi8qIFNlY3Rpb24gYmFja2dyb3VuZCBjb2xvcnMgKi8KI2hvbWUgewogICAgYmFja2dyb3VuZC1jb2xvcjogI2Y1ZjVmNTsKfQojYWJvdXQgewogICAgYmFja2dyb3VuZC1jb2xvcjogI2U3NGMzYzsKICAgIGNvbG9yOiB3aGl0ZTsKfQojc2VydmljZXMgewogICAgYmFja2dyb3VuZC1jb2xvcjogIzJlY2M3MTsKICAgIGNvbG9yOiB3aGl0ZTsKfQojY29udGFjdCB7CiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjOWI1OWI2OwogICAgY29sb3I6IHdoaXRlOwp9Cg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mutho/OneDrive/Documents/INTERNAL ATTACHMENT/Dairy/signup.php",
+		"/C/Users/mutho/OneDrive/Documents/INTERNAL ATTACHMENT/Dairy/login.php",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/contact.html",
+		"/C/Users/mutho/OneDrive/Desktop/kieni dairy products/CUSTOMER SIGN UP.php",
+		"/C/Users/mutho/OneDrive/Documents/NGONZE_PORTFOLIO/capstone_project.html",
+		"/C/Users/mutho/OneDrive/Documents/NGONZE_PORTFOLIO/assets/powerPoint_presentation_on_any_aspect_of_African_culture_demonstrating_its_importance_to_your_area_of_specialization.pptx",
+		"/C/Users/mutho/OneDrive/Documents/NGONZE_PORTFOLIO/assets/presentation_PowePoint_on_any_invention_or_innovation_in_your_field_of_study.pptx",
+		"/C/Users/mutho/OneDrive/Documents/NGONZE_PORTFOLIO/assets/presentation_on_any_invention_or_innovation_in_your_field_of_study.pptx",
+		"/C/Users/mutho/OneDrive/Documents/NGONZE_PORTFOLIO/assets/power_point_presentation_on_any_invention_or_innovation_in_your_field_of_study[1].pptx",
+		"/C/Users/mutho/OneDrive/Documents/NGONZE_PORTFOLIO/about.html",
+		"/C/Users/mutho/OneDrive/Documents/NGONZE_PORTFOLIO/index.html",
+		"/C/Users/mutho/OneDrive/Documents/NGONZE_PORTFOLIO/about_capstone_project.html",
+		"/C/Users/mutho/OneDrive/Documents/NGONZE_PORTFOLIO/overview.html",
+		"/C/Users/mutho/OneDrive/Documents/NGONZE_PORTFOLIO/contact.html",
+		"/C/Users/mutho/OneDrive/Documents/NGONZE_PORTFOLIO/README.md",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/index.html",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/capstone_project.html",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/instagram.docx",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/English_ABSTRACT(innovation in Computer science).docx",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/English_ABSTRACT(african culture aspect).docx",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/power_point_presentation_for_autobiography_essay.pptx",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/CAPSTONE _RESUME(english).docx",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/about_capstone_project.html",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/powerPoint_presentation_on_any_aspect_of_African_culture_demonstrating_its_importance_to_your_area_of_specialization..pptx",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/power_point_presentation_on_any_invention_or_innovation_in_your_field_of_study..pptx",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/African_Culture_and_Its Importance_to_Environmental_Sustainability.pptx",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/styles1.css",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/profile.jpg",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/Overview.html",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/about.html",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/styles.css",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/English ABSTRACT(african culture aspect).docx",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/styles2.css",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/JANIE1.jpg",
+		"/C/Users/mutho/Responsive_Portfolio_10-05-23/assets/JANIE.jpg",
+		"/C/Users/mutho/starter-code/index.html",
+		"/C/Users/mutho/Animated-Dark-Portfolio/images/Snapchat-503209136.jpg",
+		"/C/Users/mutho/Animated-Dark-Portfolio/index.html",
+		"/C/Users/mutho/Animated-Dark-Portfolio/style.css",
+		"/C/Users/mutho/Animated-Dark-Portfolio/images/main_photo.jpg",
+		"/C/Users/mutho/personnelportfolio/index.html",
+		"/C/Users/mutho/personnelportfolio/images/desc.jpg",
+		"/C/Users/mutho/personnelportfolio/images/about.jpg",
+		"/C/Users/mutho/personnelportfolio/images/home-0.JPG",
+		"/C/Users/mutho/personnelportfolio/images/about-1.JPG",
+		"/C/Users/mutho/personnelportfolio/style.css",
+		"/C/Users/mutho/personnelportfolio/images/home.jpg",
+		"/C/Users/mutho/personnelportfolio/images/about-2.JPG",
+		"/C/Users/mutho/Animated-Dark-Portfolio/link.html",
+		"/C/Users/mutho/Downloads/form-to-google-sheets-master/form-to-google-sheets-master/form-script.js",
+		"/C/Users/mutho/Downloads/form-to-google-sheets-master/form-to-google-sheets-master/form-script-commented.js",
+		"/C/Users/mutho/OneDrive/Desktop/jacc/main dart original",
+		"/C/Users/mutho/Downloads/arithmetic.txt",
+		"/G/movies/Dont.Breathe.2.2021.1080p.AMZN.10bit.DDP.5.1.x265.[HashMiner]/Uploaded by HashMiner! [ReadMe].txt",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/12Q2C99B/IMAGE_CLASSIFIER[1].txt",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/X2X3QHSR/ML MISSING MARKS 4.1[1].txt",
+		"/C/Users/mutho/Downloads/HCI ASSIGNMENT.fig",
+		"/C/Users/mutho/OneDrive/Desktop/New Text Document.txt",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/700XHB36/IMAGE_CLASSIFIER[1].txt",
+		"/C/Users/mutho/mammals.7z",
+		"/G/movies/Need for Speed Underground 2 - (Www.ApunKaGames.Com)/Read Me First - Instructions.txt",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/X2X3QHSR/SECURITY MISSING MARKS 4.1[1].txt",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/12Q2C99B/HCI MISSING MARKS 4.1[1].txt",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/0ZO72RK9/ML MISSING MARKS 4.1[1].txt",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/X2X3QHSR/ML MISSING MARKS 4.1[2].txt",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/700XHB36/IMAGE_CLASSIFIER[2].txt",
+		"/C/Users/mutho/Downloads/mammals.7z",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/12Q2C99B/ML assignment[1].txt",
+		"/C/Users/mutho/Downloads/ML_assignment.ipynb",
+		"/C/Users/mutho/Downloads/jacc/jacc/miniJava.jacc",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/0ZO72RK9/miniJava[1].jacc",
+		"/C/Users/mutho/Downloads/jacc/jacc/Calc.jacc.txt",
+		"/C/Users/mutho/Downloads/jacc/jacc/simpleCalc.jacc.txt",
+		"/C/Users/mutho/OneDrive/Desktop/jacc/simpleCalc.jacc.txt",
+		"/C/Users/mutho/OneDrive/Desktop/jacc/miniJava.jacc",
+		"/C/Users/mutho/OneDrive/Desktop/jacc/Calc.jacc.txt",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/0ZO72RK9/working[1].jacc",
+		"/C/Users/mutho/OneDrive/Desktop/jacc/Unary.jacc.txt",
+		"/C/Users/mutho/OneDrive/Desktop/jacc/jacc",
+		"/C/Users/mutho/OneDrive/Desktop/jacc/jacc.bat",
+		"/C/Users/mutho/OneDrive/Desktop/jacc/jacc.jar",
+		"/C/Users/mutho/OneDrive/Desktop/jacc/README",
+		"/C/Users/mutho/OneDrive/Desktop/jacc/LICENSE",
+		"/C/xampp/htdocs/Dairy/buttermilk.php",
+		"/C/xampp/htdocs/Dairy/morphological analyzer",
+		"/C/xampp/htdocs/Dairy/morphological.php",
+		"/C/Users/mutho/OneDrive/Documents/THEORY OF COMPUTATION CAT 2/kikuyu numberibg system (cat 2).c",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/700XHB36/Calc[1].class",
+		"/C/Users/mutho/OneDrive/Documents/JACC/jacc/CalcTokens.class",
+		"/C/xampp/htdocs/Dairy/xerox",
+		"/C/Users/mutho/AppData/Local/Microsoft/Windows/INetCache/IE/700XHB36/Calc[2].class",
+		"/C/Users/mutho/Downloads/gote2",
+		"/C/xampp/htdocs/Dairy/! Define the alphabet",
+		"/C/Users/mutho/Downloads/Archives/download.php"
+	],
+	"find":
+	{
+		"height": 27.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								806,
+								806
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								287
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2040,
+								2040
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.3333333333
+	},
+	"input":
+	{
+		"height": 39.3333333333
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "WEB TASK 1.sublime-project",
+	"replace":
+	{
+		"height": 50.6666666667
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 437.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

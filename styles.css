@@ -1,0 +1,404 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 300vh; /* for scrolling */
+}
+
+/* General section styling */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Welcome Section Styling */
+#welcome {
+    position: relative;
+    background-image: url('Images/image_main.jpeg'); /* Change to your background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    box-sizing: border-box;
+    overflow: hidden; /* To ensure no overflow */
+}
+
+.welcome-content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text readability */
+    border-radius: 10px;
+}
+
+.welcome-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.welcome-content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.start-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Specific section heights and colors */
+#home {
+    min-height: 600px; /* Adjust as needed */
+    background-color: #f5f5f5; /* Background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#web-development {
+    min-height: 1000px; /* Adjust as needed */
+    background-color: #3498db; /* Background color for Web Development section */
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+/* Take Course Button Styling */
+.take-course-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: white;
+    background-color: grey; /* Button background color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Space above the button */
+}
+
+.take-course-btn:hover {
+    background-color: darkgrey; /* Darker color on hover */
+}
+
+#data-science {
+    min-height: 1000px; /* Adjust as needed */
+    background-color: #3498db; /* Background color for Data Science section */
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+/* Take Course Button Styling */
+.take-course-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: white;
+    background-color: grey; /* Button background color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Space above the button */
+}
+
+.take-course-btn:hover {
+    background-color: darkgrey; /* Darker color on hover */
+}
+
+#design {
+    min-height: 1000px; /* Adjust as needed */
+    background-color: #3498db; /* Background color for Design section */
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+/* Take Course Button Styling */
+.take-course-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: white;
+    background-color: grey;; /* Button background color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Space above the button */
+}
+
+.take-course-btn:hover {
+    background-color: darkgrey; /* Darker color on hover */
+}
+
+#pricing {
+    min-height: 500px; /* Adjust as needed */
+    background-color: #2ecc71; /* Background color for Pricing section */
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pricing-plan {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for pricing plans */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.pricing-plan h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.pricing-plan p {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.pricing-plan ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.pricing-plan ul li {
+    margin: 10px 0;
+}
+
+.pricing-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pricing-btn:hover {
+    background-color: #2980b9;
+}
+}
+
+#testimonials {
+    min-height: 500px; /* Adjust as needed */
+    background-color: #e74c3c; /* Background color for Testimonials section */
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#testimonials p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: left;
+    margin: 10px;
+}
+
+.testimonial img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial blockquote {
+    margin: 0;
+}
+
+.testimonial blockquote p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.testimonial blockquote cite {
+    display: block;
+    font-size: 1em;
+    font-style: normal;
+    color: #f1c40f;
+}
+
+#about {
+    min-height: 500px; /* Adjust as needed */
+    background-color: #f39c12; /* Background color */
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contact {
+    min-height: 500px; /* Adjust as needed */
+    background-color: #9b59b6; /* Background color */
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Flexbox layout for the home section */
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; /* Optional: space between the image and text */
+}
+
+.banner-image {
+    flex: 1; /* Ensures the image takes up available space */
+    max-width: 50%; /* Adjust as needed */
+    height: auto;
+}
+
+.text-summary {
+    flex: 1; /* Ensures the text area takes up available space */
+    max-width: 45%; /* Adjust as needed */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for text readability */
+    border-radius: 10px;
+}
+
+.text-summary h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.text-summary p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Course categories styling */
+.course-category {
+    margin-bottom: 20px;
+}
+
+.course-category img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navbar styling */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3498db;
+    transition: background-color 0.3s ease;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Dropdown menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3498db;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #2980b9;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Login/Register styling */
+.login-register a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Change background color on scroll */
+nav.scrolled {
+    background-color: #2c3e50;
+}
